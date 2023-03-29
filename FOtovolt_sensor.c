@@ -27,7 +27,7 @@ Serial.println(sensor);
   }
  //LED amarelo
 
-if (sensor>100) {
+if (130>sensor>100) {
 digitalWrite(A1, 0);
 digitalWrite(A2, 1);
 digitalWrite(A3, 0);
